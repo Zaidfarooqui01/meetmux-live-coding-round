@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.pyc
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Data files
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+# Model artifacts
+checkpoints/
+checkpoint*
+*.ckpt
+*.pt
+*.pth
+*.joblib
+Model.joblib
+models/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# GitHub Actions
+.github/
+
+# Large directories that may be created by training
+runs/
+outputs/
